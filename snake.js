@@ -1,6 +1,6 @@
 const cvs = document.getElementById("snake");
 const ctx = cvs.getContext("2d");
-/*"<canvas>" tag is used to draw graphics, 
+/* "<canvas>" tag is used to draw graphics, 
 but this element has no drawing abilities of its own.
 getContext("2d") object, which can be used to draw text, lines, boxes, circles, and more - on the canvas.*/
 
@@ -48,7 +48,7 @@ function direction(event){
 		d="DOWN";
 	}
 }
-/*event objects (like MouseEvent and KeyboardEvent) 
+/* event objects (like MouseEvent and KeyboardEvent) 
 has access to the Event Object's properties and methods.*/
 
 function collision(head,array){
